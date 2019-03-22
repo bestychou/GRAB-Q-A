@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FABE10BB2244C5FF00C90CB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FABE10BA2244C5FF00C90CB1 /* main.m */; };
+		FABE10BE2244C5FF00C90CB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FABE10BD2244C5FF00C90CB1 /* AppDelegate.m */; };
+		FABE10C12244C60000C90CB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FABE10C02244C60000C90CB1 /* ViewController.m */; };
+		FABE10C42244C60000C90CB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FABE10C22244C60000C90CB1 /* Main.storyboard */; };
+		FABE10C62244C60000C90CB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FABE10C52244C60000C90CB1 /* Assets.xcassets */; };
+		FABE10C92244C60000C90CB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FABE10C72244C60000C90CB1 /* LaunchScreen.storyboard */; };
+		FABE10D42244C60100C90CB1 /* MapQuestTestingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FABE10D32244C60100C90CB1 /* MapQuestTestingTests.m */; };
+		FABE10DF2244C60100C90CB1 /* MapQuestTestingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FABE10DE2244C60100C90CB1 /* MapQuestTestingUITests.m */; };
+		FABE11092244C78300C90CB1 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = FABE10ED2244C78300C90CB1 /* LICENSE */; };
+		FABE110A2244C78300C90CB1 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FABE10F02244C78300C90CB1 /* MASCompositeConstraint.m */; };
+		FABE110B2244C78300C90CB1 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FABE10F32244C78300C90CB1 /* MASConstraint.m */; };
+		FABE110C2244C78300C90CB1 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = FABE10F52244C78300C90CB1 /* MASConstraintMaker.m */; };
+		FABE110D2244C78300C90CB1 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FABE10F72244C78300C90CB1 /* MASLayoutConstraint.m */; };
+		FABE110E2244C78300C90CB1 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = FABE10FB2244C78300C90CB1 /* MASViewAttribute.m */; };
+		FABE110F2244C78300C90CB1 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FABE10FD2244C78300C90CB1 /* MASViewConstraint.m */; };
+		FABE11102244C78300C90CB1 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FABE10FF2244C78300C90CB1 /* NSArray+MASAdditions.m */; };
+		FABE11112244C78300C90CB1 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FABE11022244C78300C90CB1 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		FABE11122244C78300C90CB1 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FABE11042244C78300C90CB1 /* View+MASAdditions.m */; };
+		FABE11132244C78300C90CB1 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FABE11072244C78300C90CB1 /* ViewController+MASAdditions.m */; };
+		FABE11142244C78300C90CB1 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = FABE11082244C78300C90CB1 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FABE10D02244C60100C90CB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FABE10AE2244C5FE00C90CB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FABE10B52244C5FF00C90CB1;
+			remoteInfo = MapQuestTesting;
+		};
+		FABE10DB2244C60100C90CB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FABE10AE2244C5FE00C90CB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FABE10B52244C5FF00C90CB1;
+			remoteInfo = MapQuestTesting;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FABE10B62244C5FF00C90CB1 /* MapQuestTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapQuestTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FABE10BA2244C5FF00C90CB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FABE10BC2244C5FF00C90CB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FABE10BD2244C5FF00C90CB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FABE10BF2244C60000C90CB1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FABE10C02244C60000C90CB1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FABE10C32244C60000C90CB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FABE10C52244C60000C90CB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FABE10C82244C60000C90CB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FABE10CA2244C60100C90CB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FABE10CF2244C60100C90CB1 /* MapQuestTestingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapQuestTestingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FABE10D32244C60100C90CB1 /* MapQuestTestingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapQuestTestingTests.m; sourceTree = "<group>"; };
+		FABE10D52244C60100C90CB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FABE10DA2244C60100C90CB1 /* MapQuestTestingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapQuestTestingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FABE10DE2244C60100C90CB1 /* MapQuestTestingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapQuestTestingUITests.m; sourceTree = "<group>"; };
+		FABE10E02244C60200C90CB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FABE10ED2244C78300C90CB1 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		FABE10EF2244C78300C90CB1 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		FABE10F02244C78300C90CB1 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		FABE10F12244C78300C90CB1 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		FABE10F22244C78300C90CB1 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		FABE10F32244C78300C90CB1 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		FABE10F42244C78300C90CB1 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		FABE10F52244C78300C90CB1 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		FABE10F62244C78300C90CB1 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		FABE10F72244C78300C90CB1 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		FABE10F82244C78300C90CB1 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		FABE10F92244C78300C90CB1 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		FABE10FA2244C78300C90CB1 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		FABE10FB2244C78300C90CB1 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		FABE10FC2244C78300C90CB1 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		FABE10FD2244C78300C90CB1 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		FABE10FE2244C78300C90CB1 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		FABE10FF2244C78300C90CB1 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		FABE11002244C78300C90CB1 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		FABE11012244C78300C90CB1 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		FABE11022244C78300C90CB1 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		FABE11032244C78300C90CB1 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		FABE11042244C78300C90CB1 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		FABE11052244C78300C90CB1 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		FABE11062244C78300C90CB1 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		FABE11072244C78300C90CB1 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		FABE11082244C78300C90CB1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FABE10B32244C5FF00C90CB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FABE10CC2244C60100C90CB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FABE10D72244C60100C90CB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FABE10AD2244C5FE00C90CB1 = {
+			isa = PBXGroup;
+			children = (
+				FABE10B82244C5FF00C90CB1 /* MapQuestTesting */,
+				FABE10D22244C60100C90CB1 /* MapQuestTestingTests */,
+				FABE10DD2244C60100C90CB1 /* MapQuestTestingUITests */,
+				FABE10B72244C5FF00C90CB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FABE10B72244C5FF00C90CB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FABE10B62244C5FF00C90CB1 /* MapQuestTesting.app */,
+				FABE10CF2244C60100C90CB1 /* MapQuestTestingTests.xctest */,
+				FABE10DA2244C60100C90CB1 /* MapQuestTestingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FABE10B82244C5FF00C90CB1 /* MapQuestTesting */ = {
+			isa = PBXGroup;
+			children = (
+				FABE10BC2244C5FF00C90CB1 /* AppDelegate.h */,
+				FABE10BD2244C5FF00C90CB1 /* AppDelegate.m */,
+				FABE10BF2244C60000C90CB1 /* ViewController.h */,
+				FABE10C02244C60000C90CB1 /* ViewController.m */,
+				FABE10C22244C60000C90CB1 /* Main.storyboard */,
+				FABE10C52244C60000C90CB1 /* Assets.xcassets */,
+				FABE10C72244C60000C90CB1 /* LaunchScreen.storyboard */,
+				FABE10CA2244C60100C90CB1 /* Info.plist */,
+				FABE10EC2244C78300C90CB1 /* Masonry */,
+				FABE10B92244C5FF00C90CB1 /* Supporting Files */,
+			);
+			path = MapQuestTesting;
+			sourceTree = "<group>";
+		};
+		FABE10B92244C5FF00C90CB1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FABE10BA2244C5FF00C90CB1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FABE10D22244C60100C90CB1 /* MapQuestTestingTests */ = {
+			isa = PBXGroup;
+			children = (
+				FABE10D32244C60100C90CB1 /* MapQuestTestingTests.m */,
+				FABE10D52244C60100C90CB1 /* Info.plist */,
+			);
+			path = MapQuestTestingTests;
+			sourceTree = "<group>";
+		};
+		FABE10DD2244C60100C90CB1 /* MapQuestTestingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FABE10DE2244C60100C90CB1 /* MapQuestTestingUITests.m */,
+				FABE10E02244C60200C90CB1 /* Info.plist */,
+			);
+			path = MapQuestTestingUITests;
+			sourceTree = "<group>";
+		};
+		FABE10EC2244C78300C90CB1 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				FABE10ED2244C78300C90CB1 /* LICENSE */,
+				FABE10EE2244C78300C90CB1 /* Masonry */,
+				FABE11082244C78300C90CB1 /* README.md */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		FABE10EE2244C78300C90CB1 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				FABE10EF2244C78300C90CB1 /* MASCompositeConstraint.h */,
+				FABE10F02244C78300C90CB1 /* MASCompositeConstraint.m */,
+				FABE10F12244C78300C90CB1 /* MASConstraint+Private.h */,
+				FABE10F22244C78300C90CB1 /* MASConstraint.h */,
+				FABE10F32244C78300C90CB1 /* MASConstraint.m */,
+				FABE10F42244C78300C90CB1 /* MASConstraintMaker.h */,
+				FABE10F52244C78300C90CB1 /* MASConstraintMaker.m */,
+				FABE10F62244C78300C90CB1 /* MASLayoutConstraint.h */,
+				FABE10F72244C78300C90CB1 /* MASLayoutConstraint.m */,
+				FABE10F82244C78300C90CB1 /* Masonry.h */,
+				FABE10F92244C78300C90CB1 /* MASUtilities.h */,
+				FABE10FA2244C78300C90CB1 /* MASViewAttribute.h */,
+				FABE10FB2244C78300C90CB1 /* MASViewAttribute.m */,
+				FABE10FC2244C78300C90CB1 /* MASViewConstraint.h */,
+				FABE10FD2244C78300C90CB1 /* MASViewConstraint.m */,
+				FABE10FE2244C78300C90CB1 /* NSArray+MASAdditions.h */,
+				FABE10FF2244C78300C90CB1 /* NSArray+MASAdditions.m */,
+				FABE11002244C78300C90CB1 /* NSArray+MASShorthandAdditions.h */,
+				FABE11012244C78300C90CB1 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				FABE11022244C78300C90CB1 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				FABE11032244C78300C90CB1 /* View+MASAdditions.h */,
+				FABE11042244C78300C90CB1 /* View+MASAdditions.m */,
+				FABE11052244C78300C90CB1 /* View+MASShorthandAdditions.h */,
+				FABE11062244C78300C90CB1 /* ViewController+MASAdditions.h */,
+				FABE11072244C78300C90CB1 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FABE10B52244C5FF00C90CB1 /* MapQuestTesting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FABE10E32244C60200C90CB1 /* Build configuration list for PBXNativeTarget "MapQuestTesting" */;
+			buildPhases = (
+				FABE10B22244C5FF00C90CB1 /* Sources */,
+				FABE10B32244C5FF00C90CB1 /* Frameworks */,
+				FABE10B42244C5FF00C90CB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapQuestTesting;
+			productName = MapQuestTesting;
+			productReference = FABE10B62244C5FF00C90CB1 /* MapQuestTesting.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FABE10CE2244C60100C90CB1 /* MapQuestTestingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FABE10E62244C60200C90CB1 /* Build configuration list for PBXNativeTarget "MapQuestTestingTests" */;
+			buildPhases = (
+				FABE10CB2244C60100C90CB1 /* Sources */,
+				FABE10CC2244C60100C90CB1 /* Frameworks */,
+				FABE10CD2244C60100C90CB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FABE10D12244C60100C90CB1 /* PBXTargetDependency */,
+			);
+			name = MapQuestTestingTests;
+			productName = MapQuestTestingTests;
+			productReference = FABE10CF2244C60100C90CB1 /* MapQuestTestingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FABE10D92244C60100C90CB1 /* MapQuestTestingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FABE10E92244C60200C90CB1 /* Build configuration list for PBXNativeTarget "MapQuestTestingUITests" */;
+			buildPhases = (
+				FABE10D62244C60100C90CB1 /* Sources */,
+				FABE10D72244C60100C90CB1 /* Frameworks */,
+				FABE10D82244C60100C90CB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FABE10DC2244C60100C90CB1 /* PBXTargetDependency */,
+			);
+			name = MapQuestTestingUITests;
+			productName = MapQuestTestingUITests;
+			productReference = FABE10DA2244C60100C90CB1 /* MapQuestTestingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FABE10AE2244C5FE00C90CB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = OurEDA;
+				TargetAttributes = {
+					FABE10B52244C5FF00C90CB1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					FABE10CE2244C60100C90CB1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FABE10B52244C5FF00C90CB1;
+					};
+					FABE10D92244C60100C90CB1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FABE10B52244C5FF00C90CB1;
+					};
+				};
+			};
+			buildConfigurationList = FABE10B12244C5FE00C90CB1 /* Build configuration list for PBXProject "MapQuestTesting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FABE10AD2244C5FE00C90CB1;
+			productRefGroup = FABE10B72244C5FF00C90CB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FABE10B52244C5FF00C90CB1 /* MapQuestTesting */,
+				FABE10CE2244C60100C90CB1 /* MapQuestTestingTests */,
+				FABE10D92244C60100C90CB1 /* MapQuestTestingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FABE10B42244C5FF00C90CB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FABE10C92244C60000C90CB1 /* LaunchScreen.storyboard in Resources */,
+				FABE10C62244C60000C90CB1 /* Assets.xcassets in Resources */,
+				FABE11092244C78300C90CB1 /* LICENSE in Resources */,
+				FABE10C42244C60000C90CB1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FABE10CD2244C60100C90CB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FABE10D82244C60100C90CB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FABE10B22244C5FF00C90CB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FABE11112244C78300C90CB1 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				FABE110F2244C78300C90CB1 /* MASViewConstraint.m in Sources */,
+				FABE110A2244C78300C90CB1 /* MASCompositeConstraint.m in Sources */,
+				FABE11102244C78300C90CB1 /* NSArray+MASAdditions.m in Sources */,
+				FABE10C12244C60000C90CB1 /* ViewController.m in Sources */,
+				FABE10BE2244C5FF00C90CB1 /* AppDelegate.m in Sources */,
+				FABE110D2244C78300C90CB1 /* MASLayoutConstraint.m in Sources */,
+				FABE10BB2244C5FF00C90CB1 /* main.m in Sources */,
+				FABE11132244C78300C90CB1 /* ViewController+MASAdditions.m in Sources */,
+				FABE11122244C78300C90CB1 /* View+MASAdditions.m in Sources */,
+				FABE11142244C78300C90CB1 /* README.md in Sources */,
+				FABE110E2244C78300C90CB1 /* MASViewAttribute.m in Sources */,
+				FABE110B2244C78300C90CB1 /* MASConstraint.m in Sources */,
+				FABE110C2244C78300C90CB1 /* MASConstraintMaker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FABE10CB2244C60100C90CB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FABE10D42244C60100C90CB1 /* MapQuestTestingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FABE10D62244C60100C90CB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FABE10DF2244C60100C90CB1 /* MapQuestTestingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FABE10D12244C60100C90CB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FABE10B52244C5FF00C90CB1 /* MapQuestTesting */;
+			targetProxy = FABE10D02244C60100C90CB1 /* PBXContainerItemProxy */;
+		};
+		FABE10DC2244C60100C90CB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FABE10B52244C5FF00C90CB1 /* MapQuestTesting */;
+			targetProxy = FABE10DB2244C60100C90CB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FABE10C22244C60000C90CB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FABE10C32244C60000C90CB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FABE10C72244C60000C90CB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FABE10C82244C60000C90CB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FABE10E12244C60200C90CB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FABE10E22244C60200C90CB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FABE10E42244C60200C90CB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MapQuestTesting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.oureda.mm.MapQuestTesting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FABE10E52244C60200C90CB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MapQuestTesting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.oureda.mm.MapQuestTesting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FABE10E72244C60200C90CB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MapQuestTestingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.oureda.mm.MapQuestTestingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapQuestTesting.app/MapQuestTesting";
+			};
+			name = Debug;
+		};
+		FABE10E82244C60200C90CB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MapQuestTestingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.oureda.mm.MapQuestTestingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapQuestTesting.app/MapQuestTesting";
+			};
+			name = Release;
+		};
+		FABE10EA2244C60200C90CB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MapQuestTestingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.oureda.mm.MapQuestTestingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MapQuestTesting;
+			};
+			name = Debug;
+		};
+		FABE10EB2244C60200C90CB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MapQuestTestingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.oureda.mm.MapQuestTestingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MapQuestTesting;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FABE10B12244C5FE00C90CB1 /* Build configuration list for PBXProject "MapQuestTesting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FABE10E12244C60200C90CB1 /* Debug */,
+				FABE10E22244C60200C90CB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FABE10E32244C60200C90CB1 /* Build configuration list for PBXNativeTarget "MapQuestTesting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FABE10E42244C60200C90CB1 /* Debug */,
+				FABE10E52244C60200C90CB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FABE10E62244C60200C90CB1 /* Build configuration list for PBXNativeTarget "MapQuestTestingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FABE10E72244C60200C90CB1 /* Debug */,
+				FABE10E82244C60200C90CB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FABE10E92244C60200C90CB1 /* Build configuration list for PBXNativeTarget "MapQuestTestingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FABE10EA2244C60200C90CB1 /* Debug */,
+				FABE10EB2244C60200C90CB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FABE10AE2244C5FE00C90CB1 /* Project object */;
+}
